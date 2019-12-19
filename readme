@@ -1,0 +1,3 @@
+step 1:-run mvn clean install
+step 2:-run spring boot app or java -jar springboot-h2.jar
+step 3: for swagger use this url :-http://localhost:9000/swagger-ui.html#/
