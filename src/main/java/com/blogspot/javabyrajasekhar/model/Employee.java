@@ -17,6 +17,7 @@ import lombok.NoArgsConstructor;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Employee {
 	@Id
+	@GeneratedValue
 	private Integer eno;
 	private String name;
 	private Double salary;

@@ -20,6 +20,7 @@ public class SpringbootH2JpaRestCrudExampleApplication implements CommandLineRun
 
 	@Override
 	public void run(String... args) throws Exception {
+	employeeRepository.deleteAll();
 	employeeRepository.save(new Employee(1,"rajasekhar",7000d));
 	employeeRepository.save(new Employee(2,"vamsi",6045d));	
 	employeeRepository.save(new Employee(3,"srinu",5432d));	
