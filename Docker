@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 9090
+ADD target/springboot-h2.jar springboot-h2.jar 
+ENTRYPOINT ["java","-jar","/springboot-h2.jar"]
